@@ -24,9 +24,9 @@ def word_subsituter(tweet)
   end
   newTweet = ""
   for i in range
-    newTweet.push(sepTweet)
+    newTweet.push(sepTweet[i])
   end
-  puts sepTweet.flatten.inspect
+  puts newTweet
   
 end
 

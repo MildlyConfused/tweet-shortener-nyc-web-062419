@@ -14,10 +14,11 @@
 
 def word_subsituter(tweet)
   sepTweet = tweet.split(" ")
+  puts sepTweet
   $dictionary.collect do |long, short|
     
   end
   
 end
 
-word_subsituter("two")
+word_subsituter("two four")

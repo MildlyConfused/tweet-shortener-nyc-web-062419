@@ -22,7 +22,10 @@ def word_subsituter(tweet)
       end
     end
   end
+  newTweet = ""
   for i in range
+    newTweet.push(sepTweet)
+  end
   puts sepTweet.flatten.inspect
   
 end

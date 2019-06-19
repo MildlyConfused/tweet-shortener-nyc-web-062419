@@ -19,4 +19,4 @@ def word_subsituter(tweet)
   
 end
 
-puts word_subsituter("two")
+word_subsituter("two")

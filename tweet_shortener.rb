@@ -27,7 +27,7 @@ def word_subsituter(tweet)
     newTweet = newTweet + " " + sepTweet[i]
   end
   puts newTweet
-  
+  newTweet
 end
 
 word_subsituter("two four")

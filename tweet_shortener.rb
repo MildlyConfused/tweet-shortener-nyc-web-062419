@@ -13,7 +13,8 @@
   }
 
 def word_subsituter(tweet)
+  dictionary
   
 end
 
-word_subsituter("two")
+puts word_subsituter("two")

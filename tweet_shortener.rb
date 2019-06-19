@@ -34,9 +34,11 @@ end
 
 def bulk_tweet_shortener(tweets)
   range = 0..tweets.length-1
+  newTweets = []
   for i in range
-    
+    newTweets[i] = word_substituter(tweets[i])
   end
+  return newTweets
 end
 
 

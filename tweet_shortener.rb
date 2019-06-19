@@ -16,10 +16,11 @@ def word_subsituter(tweet)
   sepTweet = tweet.split(" ")
   range = 0..sepTweet.length-1
   for word in range
-    puts word
-  end
-  $dictionary.collect do |long, short|
-    
+    $dictionary.collect do |long, short|
+      if sepTweet[word] == long
+        sepTweet[word] = short
+      end
+    end
   end
   
 end

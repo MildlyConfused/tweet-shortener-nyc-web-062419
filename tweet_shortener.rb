@@ -13,7 +13,9 @@
   }
 
 def word_subsituter(tweet)
-  dictionary
+  dictionary.collect do |long, short|
+    
+  end
   
 end
 

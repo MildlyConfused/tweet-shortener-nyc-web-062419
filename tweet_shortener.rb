@@ -34,7 +34,6 @@ end
 
 def bulk_tweet_shortener(tweets)
   range = 0..tweets.length-1
-  
   for i in range
     
   end

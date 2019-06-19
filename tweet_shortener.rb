@@ -15,3 +15,5 @@
 def word_subsituter(tweet)
   
 end
+
+word_subsituter("two")

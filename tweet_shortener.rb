@@ -17,7 +17,7 @@ def word_substituter(tweet)
   range = 0..sepTweet.length-1
   for word in range
     $dictionary.collect do |long, short|
-      if sepTweet[word] == long
+      if sepTweet[word].upcase == long.upcase
         sepTweet[word] = short
       end
     end

@@ -12,7 +12,7 @@
     "and" => "&"
   }
 
-def word_subsituter(tweet)
+def word_substituter(tweet)
   sepTweet = tweet.split(" ")
   range = 0..sepTweet.length-1
   for word in range

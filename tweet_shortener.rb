@@ -1,5 +1,5 @@
 # Write your code here.
-  dictionary = {
+  words = {
     "hello" => 'hi',
     "to" => '2', 
     "too" => '2',
@@ -13,7 +13,7 @@
   }
 
 def word_subsituter(tweet)
-  puts dictionary
+  puts words
   
 end
 

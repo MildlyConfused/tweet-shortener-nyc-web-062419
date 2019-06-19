@@ -42,7 +42,9 @@ def bulk_tweet_shortener(tweets)
 end
 
 
-def 
+def selective_tweet_shortener(tweet)
+  puts tweet.length
+end
 
 
-
+selective_tweet_shortener("hello")

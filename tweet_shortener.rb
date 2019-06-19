@@ -12,3 +12,9 @@
     "and" => "&"
   }
 
+def word_subsituter(tweet)
+  puts dictionary
+  
+end
+
+word_subsituter("two")

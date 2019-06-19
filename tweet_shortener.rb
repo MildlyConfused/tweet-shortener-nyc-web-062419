@@ -27,7 +27,6 @@ def word_substituter(tweet)
     newTweet = newTweet + " " + sepTweet[i]
   end
   newTweet[0] = ''
-  puts newTweet
   newTweet
 end
 
@@ -41,9 +40,6 @@ def bulk_tweet_shortener(tweets)
   return newTweets
 end
 
-
-
-word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
 
 
 

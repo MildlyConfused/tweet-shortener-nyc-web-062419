@@ -23,6 +23,7 @@ def word_subsituter(tweet)
     end
   end
   puts sepTweet.flatten.inspect
+  
 end
 
 word_subsituter("two four")

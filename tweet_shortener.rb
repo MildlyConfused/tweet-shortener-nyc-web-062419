@@ -26,6 +26,7 @@ def word_substituter(tweet)
   for i in range
     newTweet = newTweet + " " + sepTweet[i]
   end
+  newTweet[0] = ''
   puts newTweet
   newTweet
 end

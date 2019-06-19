@@ -1,5 +1,5 @@
 # Write your code here.
-  dictionary = {
+  $dictionary = {
     "hello" => 'hi',
     "to" => '2', 
     "too" => '2',
@@ -13,7 +13,7 @@
   }
 
 def word_subsituter(tweet)
-  dictionary.collect do |long, short|
+  $dictionary.collect do |long, short|
     puts long
   end
   

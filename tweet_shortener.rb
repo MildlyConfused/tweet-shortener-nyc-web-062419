@@ -13,8 +13,9 @@
   }
 
 def word_subsituter(tweet)
+  sepTweet = tweet.split(" ")
   $dictionary.collect do |long, short|
-    puts long
+    
   end
   
 end
